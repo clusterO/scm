@@ -1,0 +1,21 @@
+package: scm
+import:
+    - package: github.com/go-kit/kit
+      version: ^0.7.0
+    - package: github.com/graphql-go/graphql
+      version: ^0.7.6
+    - package: github.com/mongodb/mongo-go-driver
+      version: ^0.0.16
+      subpackages:
+          - mongo
+    - package: golang.org/x/oauth2
+    - package: m4o.io/pbf
+      subpackages:
+          - cmd/pbf
+    - package: github.com/gopherjs/gopherjs
+    - package: github.com/etcd-io/etcd
+      version: ^3.3.10
+    - package: github.com/satori/go.uuid
+      version: ^1.2.0
+    - package: github.com/globalsign/mgo
+    - package: gopkg.in/mgo.v2

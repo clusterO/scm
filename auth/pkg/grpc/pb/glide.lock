@@ -1,0 +1,18 @@
+hash: c4d020ef8713771207fe62b7629bdaccffe0ac0779c02695b9f802c288c9415a
+updated: 2018-10-24T21:19:35.864724497-04:00
+imports:
+- name: github.com/go-kit/kit
+  version: ca4112baa34cb55091301bdc13b1420a122b1b9e
+- name: github.com/graphql-go/graphql
+  version: 5c1be0872a56fba73b279434ea95dfda735abedd
+- name: github.com/mongodb/mongo-go-driver
+  version: 518f2246cd0d376a473b93baaee3942d99e44d0f
+  subpackages:
+  - mongo
+- name: golang.org/x/oauth2
+  version: 9dcd33a902f40452422c2367fefcb95b54f9f8f8
+- name: m4o.io/pbf
+  version: c4e4932e9167386e3e83e84ca0fd1e6202c765ab
+  subpackages:
+  - cmd/pbf
+testImports: []

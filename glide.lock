@@ -1,0 +1,69 @@
+hash: d58c9e8156e6030efcb7687a38e24ef688c2f77bd4dfb24ae802616cf2e9b49f
+updated: 2018-12-12T16:56:05.655793134-05:00
+imports:
+- name: github.com/coreos/go-semver
+  version: e214231b295a8ea9479f11b70b35d5acf3556d9b
+  subpackages:
+  - semver
+- name: github.com/etcd-io/etcd
+  version: 27fc7e2296f506182f58ce846e48f36b34fe6842
+- name: github.com/globalsign/mgo
+  version: eeefdecb41b842af6dc652aaea4026e8403e62df
+- name: github.com/go-kit/kit
+  version: 12210fb6ace19e0496167bb3e667dcd91fa9f69b
+  subpackages:
+  - endpoint
+  - log
+  - metrics
+  - metrics/internal/lv
+  - metrics/prometheus
+  - sd
+  - sd/etcd
+  - sd/internal/instance
+  - tracing/opentracing
+  - transport/grpc
+  - transport/http
+- name: github.com/go-logfmt/logfmt
+  version: 390ab7935ee28ec6b286364bba9b4dd6410cb3d5
+- name: github.com/gopherjs/gopherjs
+  version: 0766667cb4d1cfb8d5fde1fe210ae41ead3cf589
+- name: github.com/graphql-go/graphql
+  version: 08943645bf265d192b32f2100cdff2428f7ae7c5
+  subpackages:
+  - gqlerrors
+  - language/ast
+  - language/kinds
+  - language/lexer
+  - language/location
+  - language/parser
+  - language/printer
+  - language/source
+  - language/typeInfo
+  - language/visitor
+- name: github.com/kr/logfmt
+  version: b84e30acd515aadc4b783ad4ff83aff3299bdfe0
+- name: github.com/mongodb/mongo-go-driver
+  version: 29905d4bda472574c8b499e2f93b5b2747d8fbd7
+  subpackages:
+  - mongo
+- name: github.com/satori/go.uuid
+  version: f58768cc1a7a7e77a3bd49e98cdd21419399b6a3
+- name: github.com/ugorji/go
+  version: d75b2dcb6bc890b13ac61b764f5dc5e5a5591dce
+  subpackages:
+  - codec
+- name: go.etcd.io/etcd
+  version: 510ae3d2a23bd11d1f56f4329396b1c43eea0ed8
+  subpackages:
+  - client
+  - pkg/pathutil
+  - pkg/srv
+  - pkg/types
+  - version
+- name: golang.org/x/oauth2
+  version: 9dcd33a902f40452422c2367fefcb95b54f9f8f8
+- name: m4o.io/pbf
+  version: c4e4932e9167386e3e83e84ca0fd1e6202c765ab
+  subpackages:
+  - cmd/pbf
+testImports: []

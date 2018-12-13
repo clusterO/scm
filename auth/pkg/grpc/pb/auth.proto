@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package pb;
+
+service Auth {
+ rpc Auth (AuthRequest) returns (AuthReply);
+}
+
+message AuthRequest {
+    string email = 1;
+    string content = 2;
+}
+
+message AuthReply {
+    string id = 1;
+}
+
